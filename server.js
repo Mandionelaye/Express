@@ -9,8 +9,8 @@ app.use(express.static("public"));
 //mill
 app.use((req,res,next)=>{
     let date = new Date();
-    const day=4 //date.getDay();
-    const hour =12 //date.getHours();
+    const day=date.getDay();
+    const hour =date.getHours();
     if (day >= 1 && day <= 5 && hour >= 9 && hour <= 17) {
       next();
     }else{
