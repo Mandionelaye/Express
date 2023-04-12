@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.fermer{
+   background:linear-gradient(rgba(0, 0, 0, 0.107),rgba(0, 0, 0, 0.203)),url("https://images.frandroid.com/wp-content/uploads/2022/08/apple-evenement-7-septembre-2022-keynote-iphone-14.jpg") ;
+   background-size: cover;
+ background-position: center;
+ min-height: 102.2vh;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 5px;
+  margin-top: -25px;
+}
+.item{
+    margin: 250px;
+    text-align: center;
+}

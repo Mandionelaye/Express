@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= title
+        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/css/style1.css")
+        link(rel="stylesheet", href="/css/style2.css")
+        script(src="https://kit.fontawesome.com/4a2a40bd84.js" crossorigin="anonymous")
+                
+    body 
+          nav 
+            div.logo 
+               h1 SenAppel
+                    ul.nav-links 
+                      li.log SenAppel
+                      li 
+                        a(href="/") Accuil 
+                      li 
+                        a(href="/nosService/phone") Nos sevice 
+                      li 
+                        a(href="/contact") Contact
+            div.heure
+                p#Heure         
+            div(class="burger" id="burger")
+              div.line1   
+              div.line2
+              div.line3      
+    block content
+    script(src="/js/script.js")
+    script(src="/js/heure.js")      
+    footer  
+          p.text © 2023 SenAppel.           

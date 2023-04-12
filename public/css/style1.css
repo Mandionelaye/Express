@@ -1,0 +1,50 @@
+.conateine{
+  width: 100%;
+  min-width: 100%;
+    height: 278vh;
+}
+
+.carosel h1{
+    margin-left: 10px;
+  }
+
+  .slide{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+  .ensemble-fleche{
+    width: 65%;
+    min-width: 65%;
+    display: flex;
+    margin: auto;
+  }
+  .btne{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  .card{
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 400px;
+    min-width: 200px;
+    min-height: 400px;
+    transition-duration: 1000ms;
+    margin: 5px;
+    z-index: 1;
+  }
+  .slide::-webkit-scrollbar{
+    display: none;
+  }
+  .imge{
+    width: 200px;
+    height: 400px;
+    min-width: 200px;
+    min-height: 400px;
+  }
+  
+  
+  

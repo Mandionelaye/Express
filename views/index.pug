@@ -1,0 +1,52 @@
+extends layout
+block content
+  header.accuil 
+    div.elm
+     h1 SenAppl 
+     p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad natus eligendi numquam dicta veniam culpa! Saepe, accusamus debitis porro error autem sed fugiat sequi rerum magnam consequatur earum amet esse!
+  div.conateine
+   div.carosel 
+     h1 Phone   
+      div.ensemble-fleche
+          button( type="button" class="btne img-svg1p")
+           i( class="fa-solid fa-less-than")
+          div.slide.slidep
+           each item in phone
+            div.card  
+             a(href="/nosService/phone")
+              img(src=item.img, alt="img" class="imge")
+          button(type="button", class="btne img-svg2p")
+           i(class="fa-solid fa-greater-than")    
+
+   div.carosel 
+     h1 Tablette   
+      div.ensemble-fleche
+          button( type="button", class="btne img-svg1t")
+           i( class="fa-solid fa-less-than")
+          div.slide.slidet
+           each item in tablette
+            div.card 
+             a(href="/nosService/tablette")
+              img(src=item.img, alt="img", class="imge")
+          button(type="button", class="btne img-svg2t")
+           i(class="fa-solid fa-greater-than")
+    
+
+   div.carosel 
+     h1 Ordinateur  
+      div.ensemble-fleche
+          button( type="button" class="btne img-svg1o")
+           i( class="fa-solid fa-less-than")
+          div.slide.slideo
+           each item in ordinateur
+            div.card 
+             a(href="/nosService/Ordinateur")
+              img(src=item.img, alt="img" class="imge") 
+          button(type="button", class="btne img-svg2o")
+            i(class="fa-solid fa-greater-than")      
+
+
+
+  script(src="/js/script1.js", type="text/javascript")         
+
+        

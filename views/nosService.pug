@@ -1,0 +1,18 @@
+extends layout
+
+block content
+ header.serveice 
+    div.elm
+     h1 SenAppl 
+     p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad natus eligendi numquam dicta veniam culpa! Saepe, accusamus debitis porro error autem sed fugiat sequi rerum magnam consequatur earum amet esse!
+ div.change
+    a(href="/nosService/phone") Phone       
+    a(href="/nosService/tablette") tablette      
+    a(href="/nosService/Ordinateur") Ordinateur 
+ div.container   
+      each item in tab  
+        div.item
+            img(src=item.img, alt="")
+            div.sousitem
+              h3=item.titre 
+              samp=item.prix

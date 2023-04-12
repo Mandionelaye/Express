@@ -1,0 +1,24 @@
+extends layout
+
+block content
+ div.contact
+   div.part
+    img(src="https://cdn.sforum.vn/sforum/wp-content/uploads/2018/10/cover-apple-oct-event-1-960x503.jpg", alt="")
+    div.link
+      a(href="#")
+        i.fa-brands.fa-instagram
+      a(href="#")
+        i.fa-brands.fa-facebook
+      a(href="#")
+        i.fa-brands.fa-tiktok
+   div.part  
+      form(methode="poste")
+      label(for="nom") Nom & prenom
+      div.inputNom 
+        input(type="text", name="nom") 
+        input(type="text", name="prenom") 
+      label(for="email") Email 
+      input(type="email", name="email")
+      label(for="email") message 
+      textarea(name="msg", cols="30", rows="10") 
+      input(type="submit", value="send", class="btn")
